@@ -1,4 +1,6 @@
-# CoPOS
+# Learning the M(UMPS) programming language
+
+# Using the Open M(UMPS) implementation
 Learning the M(UMPS) programming language
 
 
