@@ -20,11 +20,11 @@ https://stackoverflow.com/questions/26042390/git-add-asterisk-vs-git-add-period
 
 git CLI: add, commit, push commands
 
-; add all new files / deltas
+; add all new files / deltas <br>
 git add * 
 
-; if omit -m ,nano opens for a more expasnive text editor experience /n
+; if omit -m ,nano opens for a more expasnive text editor experience <br>
 git commit -m "commit message goes here"
 
-; main is the name of the branch that the committed files / deltas are being pushed to \n
+; main is the name of the branch that the committed files / deltas are being pushed to <br>
 git push origin main
