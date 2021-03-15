@@ -1,0 +1,10 @@
+broccoli
+radish
+kale
+spinach
+carrot
+onion
+potato
+cucumber
+jalapeno
+cauliflower
