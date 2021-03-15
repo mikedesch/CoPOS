@@ -5,6 +5,9 @@
 ### http://www.cs.uni.edu/~okane/
 
 
+### Initializing the local git repo to existing Github repo
+![image](https://user-images.githubusercontent.com/45149184/111190437-14bce380-8585-11eb-97d6-bf2b3359d70d.png)
+
 
 git CLI: add, commit, push commands
 
