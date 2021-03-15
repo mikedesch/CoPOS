@@ -1,9 +1,9 @@
 # M
 
-### Learning the M(UMPS) programming language
+### Learning the Open M(UMPS) implementation of the M programming language
 
-### Using the Open M(UMPS) implementation
-Learning the M(UMPS) programming language
+### http://www.cs.uni.edu/~okane/
+
 
 
 git CLI: add, commit, push commands
