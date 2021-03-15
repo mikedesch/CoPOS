@@ -1,0 +1,990 @@
+    1  man sudo_root
+    2  sudo -i
+    3  sudo apt-get install nautilus
+    4  nautilus
+    5  DISPLAY=127.0.0.1:0
+    6  export DISPLAY
+    7  nautilus
+    8  sudo nautilus
+    9  sudo -i
+   10  cat /etc os-release
+   11  cat /etc/os-release 
+   12  apt-get install leafpad
+   13  sudo apt-get install leafpad
+   14  sudo apt install leafpad
+   15  sudo apt update
+   16  sudo apt-get install leafpad
+   17  ip addr show eth0
+   18  DISPLAY=169.254.228.148:0
+   19  DISPLAY=127.0.0.1:0
+   20  export DISPLAY
+   21  leafpad
+   22  echo hello world
+   23  ls
+   24  dir
+   25  ls
+   26  ?
+   27  help
+   28  clear
+   29  pwd
+   30  wget http://cab.spbu.ru/files/release3.14.1/SPAdes-3.14.1-Linux.tar.gz
+   31  dir
+   32  tar -xzf SPAdes-3.14.1-Linux.tar.gz
+   33  dir
+   34  spades.py --test
+   35  sudo apt install spades
+   36  clear
+   37  spades.py --test
+   38  dir
+   39  cd SPAdes-3.14.1-Linux/
+   40  dir
+   41  $PATH
+   42  cd ../
+   43  dir
+   44  pwd
+   45  cd ../
+   46  pwd
+   47  mkdir "~/bin"
+   48  mkdir ~/bin
+   49  dir
+   50  dir /?
+   51  man dir
+   52  dir --a
+   53  dir --all
+   54  ls
+   55  ls -all
+   56  logout
+   57  $PATH
+   58  cd ../../
+   59  ls
+   60  ls --a
+   61  ls --all
+   62  ls /bin --all
+   63  pwd
+   64  ls -all
+   65  cd etc ; ls
+   66  nano profile
+   67  man cp
+   68  cp profile ~/mdesch
+   69  nano profile
+   70  sudo nano profile
+   71  sudo vim profile
+   72  ls
+   73  cd bin
+   74  ls
+   75  pwd
+   76  cd ../../
+   77  pwd
+   78  ls
+   79  ls --all
+   80  cd ../ ; ls
+   81  cd etc ;ls
+   82  clear
+   83  sudo nano profile
+   84  ps -aux
+   85  sudo ps -A
+   86  vim
+   87  sudo nano profile
+   88  kill 71
+   89  sudo nano profile
+   90  logout
+   91  $PATH
+   92  cd ~/
+   93  pwd
+   94  ls
+   95  ls --all
+   96  ls
+   97  cd SPAdes-3.14.1-Linux/
+   98  ls
+   99  cd bin
+  100  ls
+  101  spades.py --test
+  102  ./spades.py --test
+  103  ls
+  104  spades.py
+  105  nano spades.py
+  106  nano ~/.profile
+  107  cd ~/
+  108  ls
+  109  nano ~/.profile
+  110  ls
+  111  nano ~/.profile
+  112  logout
+  113  spades.py --test
+  114  sudo apt install spades
+  115  sudo apt-get update spades
+  116  sudo apt-get update
+  117  sudo apt install spades
+  118  spades.py --test
+  119  man gz
+  120  $PATH
+  121  pwd
+  122  cd spades_test/corrected/
+  123  ls
+  124  gunzip ecoli_1k_1.fq.00.0_0.cor.fastq.gz
+  125  gunzip ./ecoli_1k_1.fq.00.0_0.cor.fastq.gz
+  126  gunzip ecoli_1K_1.fq.00.0_0.cor.fastq.gz
+  127  ls
+  128  man gunzip
+  129  pwd
+  130  pwd
+  131  nano ~/.profile
+  132  logout
+  133  $PATH
+  134  nano ~/.profile
+  135  spades.py --test
+  136  clear
+  137  spades.py --test
+  138  spades.py --test --disable-gzip-output
+  139  ls
+  140  rm -r spades_test/
+  141  spades.py --test --disable-gzip-output
+  142  clear
+  143  pmi
+  144  pwd
+  145  ls
+  146  rm -r spades_test/
+  147  lear
+  148  clear
+  149  spades.py --test --disable-gzip-output
+  150  gcc
+  151  sudo apt install gcc
+  152  apt-get update gcc
+  153  apt-get update
+  154  gcc --version
+  155  sudo apt install gcc --fix-missing
+  156  gcc --version
+  157  sudo apt-get update && sudo apt-get upgrade -y
+  158  sudo apt install gcc
+  159  gcc -v
+  160  g++ -v
+  161  sudo apt install /?
+  162  apt install /?
+  163  man apt install
+  164  apt --help
+  165  sudo apt install g++
+  166  sudo apt install g++ -y
+  167  g++ -v
+  168  quit()
+  169  kill
+  170  q
+  171  close
+  172  exit
+  173  apt-get -q -y install autoconf
+  174  sudo apt-get -q -y install autoconf
+  175  apt-get install libreadline6 libreadline6-dev
+  176  sudo appt-get install libreadline6 libreadline6-dev
+  177  sudo apt-get install libreadline6 libreadline6-dev
+  178  apt-cache search readline
+  179  sudo apt-get install libreadline lib32readline-dev
+  180  sudo apt-get install lib32readline lib32readline-dev
+  181  sudo apt-get install lib32readline7 lib32readline-dev
+  182  sudo apt-get -q -y install libpcre3
+  183  sudo apt-get -q -y install libpcre3-dev
+  184  sudo apt-get -q -y install g++
+  185  sudo apt-get -q -y install gcc-doc
+  186  sudo apt-get -q -y install libgmp-dev
+  187  sudo apt-get -q -y install libmpfr-dev
+  188  sudo apt-get -q -y install astyle
+  189  sudo apt-get -q -y sqlite3
+  190  sudo apt-get install sqlite3
+  191  sudo apt-get install sqlite3-dev
+  192  sudo apt-get install libsqlite3-dev
+  193  ConfigureNative.script
+  194  pwd
+  195  ls
+  196  gunzip mumps-20.06.src.tar.gz
+  197  q
+  198  exit
+  199  ls
+  200  gunzip mumps-20.06.src.tar.gz 
+  201  sudo gunzip mumps-20.06.src.tar.gz 
+  202  ls
+  203  tar -xvf mumps-20.06.src.tar 
+  204  sudo tar -xvf mumps-20.06.src.tar 
+  205  ls
+  206  cd mumpsc
+  207  ls
+  208  nano README.txt
+  209  cd doc
+  210  cd Doc
+  211  ls
+  212  nano MumpsTutorial.pdf
+  213  nano MumpsUserGuide.odt
+  214  cd ../
+  215  cd /..
+  216  cd mumpsc
+  217  ls
+  218  cd home/mdesch/mumpsc
+  219  nano readme.txt
+  220  nano README.txt
+  221  cd ../
+  222  ls
+  223  cd mumpsc
+  224  ls
+  225  sudo ConfigureNativeMumps.script
+  226  ConfigureNativeMumps.script
+  227  sudo ConfigureNativeMumps.script
+  228  ./ConfigureNativeMumps.script
+  229  sudo ./ConfigureNativeMumps.script
+  230  sudo ./CompileNativeSingleUserMumps.script
+  231  ls
+  232  pwd
+  233  cd ../
+  234  pwd
+  235  ls
+  236  cd bin
+  237  ls
+  238  cd /..
+  239  ls
+  240  cd usr/bin | ls
+  241  pwd
+  242  cd usr/bin
+  243  ls
+  244  exit
+  245  ls
+  246  cd /.
+  247  ls
+  248  cd bin
+  249  ls
+  250  readelf -h
+  251  pwd
+  252  ls
+  253  readelf
+  254  readelf --file-header
+  255  readelf -s
+  256  mumps
+  257  for i=0:2:10 write i," "
+  258  mumps
+  259  pwd
+  260  ls
+  261  mkdir learning_mumps
+  262  ls
+  263  cd learning_mumps/
+  264  nano test.mps
+  265  ls
+  266  cat test.mps 
+  267  mumps ^test.mps
+  268  mumps test.mps
+  269  cat test.mps
+  270  mumps
+  271  mumps test.mps
+  272  mumps ./test.mps
+  273  mumps test.mps 
+  274  mumps
+  275  nano test.mps
+  276  cat test.mps
+  277  nano test.mps
+  278  cat test.mps
+  279  mumps test.mps
+  280  mumps ./test.mps
+  281  cat test.mps
+  282  mumps
+  283  ls
+  284  mumps
+  285  mumps test.mps
+  286  mumps ./test.mps
+  287  cat test.mps
+  288  mumps
+  289  ls
+  290  mumps test.mps
+  291  nano test.mps
+  292  cat test.mps
+  293  test.mps
+  294  ./test.mps
+  295  sudo ./test.mps
+  296  ls
+  297  exit
+  298  pwd
+  299  ls
+  300  gunzip pARMS_3.2.tar.gz
+  301  ls
+  302  man tar
+  303  tar -xvf pARMS_3.2.tar
+  304  touch README_INSTALL
+  305  head README_INSTALL
+  306  ls
+  307  cd pARMS_3.2/
+  308  head README_INSTALL 
+  309  cat readme_install
+  310  cat README_INSTALL
+  311  LS
+  312  ls
+  313  cd conf
+  314  ls
+  315  cd ../ ; cat README
+  316  LS
+  317  ls
+  318  cd docs
+  319  ls
+  320  cd ~/
+  321  pwd
+  322  dir
+  323  cat mumpsc
+  324  cd mumpsc
+  325  dir
+  326  mumps
+  327  pwd
+  328  dir
+  329  cd /.
+  330  dir
+  331  nano ~/.bashrc
+  332  dir
+  333  exit
+  334  pwd
+  335  dir
+  336  cd /.
+  337  dir
+  338  pwd
+  339  dir
+  340  bash
+  341  dir
+  342  nano ~/.bashrc
+  343  pwd
+  344  nano ~/.profile
+  345  pwd
+  346  cd ./
+  347  pwd
+  348  cd /.
+  349  pwd
+  350  cd ~/
+  351  pwd
+  352  cd /. ; nano etc/bash.bashrc
+  353  sudo
+  354  dir
+  355  nano ~/.bashrc
+  356  pwd
+  357  dir
+  358  ls
+  359  man dir
+  360  nano ~/.bashrc
+  361  ls
+  362  cd learning_mumps/
+  363  ls
+  364  nano test.mps 
+  365  test.mps
+  366  nano test.mps
+  367  mumps
+  368  nano test.mps 
+  369  write $Device
+  370  mumps
+  371  man nano
+  372  nano test.txt
+  373  man konwert
+  374  apt-get install konwert
+  375  sudo apt-get install konwert
+  376  konwert utf8-ascii test.txt
+  377  ls
+  378  konwert utf8-ascii test.mps
+  379  mumps test.mps
+  380  man konwert
+  381  nano test.mps
+  382  nano test2.mps
+  383  mumps test2.mps
+  384  test2.mps
+  385  ./test2.mps
+  386  sudo ./test2.mps
+  387  nano test2.mps
+  388  man ls
+  389  ls -l test2.mps
+  390  ls test2.mps
+  391  pwd
+  392  ls
+  393  clear
+  394  cd mumpsc/
+  395  cd ../
+  396  ls
+  397  clear
+  398  cd mumpsc/
+  399  ls
+  400  cd ..l
+  401  cd ../
+  402  cd ~/
+  403  clear
+  404  cd learning_mumps/
+  405  ls
+  406  nano testWrite.mps
+  407  mumps testWrite.mps
+  408  mumps
+  409  nano testWrite.mps
+  410  mumps testWrite.mps
+  411  nano testWrite.mps
+  412  mumps testWrite.mps
+  413  chmod u+x testWrite.mps
+  414  testWrite.mps
+  415  nano testWrite.mps
+  416  ./testWrite.mps
+  417  nano testWrite.mps
+  418  ./testWrite.mps
+  419  mumps
+  420  pwd
+  421  cd /.
+  422  pwd
+  423  cd /home/mdesch/learning_mumps/
+  424  ls /home/mdesch/learning_mumps/
+  425  ./testWrite.mps 
+  426  ls -l
+  427  chmod a-x testWrite.mps
+  428  ls -l
+  429  chmod a+x testWrite.mps
+  430  ls -l
+  431  chmod a=rwx test.txt
+  432  ls -l
+  433  ./test.txt
+  434  chmod u=rw,g=,o= test.txt
+  435  ls -l
+  436  chmod a=rwx test.txt
+  437  ls -l
+  438  chmod a=rw test.txt
+  439  ls -l
+  440  chmod a=rwx test.txt
+  441  ls -l
+  442  chmod u=rw test.txt
+  443  ls -l
+  444  chmod u+x test.txt
+  445  ls -l
+  446  chmod a= test.txt
+  447  ls -l
+  448  chmod u=rw test.txt
+  449  chmod a= test.txt
+  450  cat test.txt
+  451  chmod u=rw test.txt
+  452  cat test.txt
+  453  clear
+  454  ls
+  455  cat test.mps
+  456  $editor
+  457  write $editor
+  458  for number in $numbers{1,2,2} do write $number done
+  459  mumps
+  460  nano for.mps
+  461  nano ./testwrite.mps
+  462  ls
+  463  nano testWrite.mps
+  464  nano for.mps
+  465  chmod a+x for.mps
+  466  ./for.mps
+  467  nano for.mps
+  468  ./for.mps
+  469  mumps
+  470  nano for.mps
+  471  ./for.mps
+  472  a(9)
+  473  mumps
+  474  nano ./for.mps
+  475  ./for.mps
+  476  nano ./for.mps
+  477  ./for.mps
+  478  nano ./for.mps
+  479  ./for.mps
+  480  nano ./for.mps
+  481  ./for.mps
+  482  nano ./for.mps
+  483  ./for.mps
+  484  nano ./for.mps
+  485  ./for.mps
+  486  nano ./for.mps
+  487  ./for.mps
+  488  nano ./for.mps
+  489  ./for.mps
+  490  nano ./for.mps
+  491  ./for.mps
+  492  nano ./for.mps
+  493  ./for.mps
+  494  nano ./for.mps
+  495  ./for.mps
+  496  nano ./for.mps
+  497  apt-get install nasm
+  498  sudo apt-get install nasm
+  499  cd ~/
+  500  ls
+  501  mkdir Assembly
+  502  ls
+  503  cd Assembly/
+  504  nasm
+  505  man nasm
+  506  nano first.asm
+  507  man nasm
+  508  nasm -hf
+  509  nasm -f elf first.asm
+  510  ls
+  511  ld -m elf _i386 first.o -o first
+  512  ld -m elf_i386 first.o -o first
+  513  ls
+  514  ./first
+  515  ls -l
+  516  nano first.asm
+  517  nasm -f elf first.asm
+  518  nano first.asm
+  519  nasm -f elf first.asm
+  520  ld -m elf_i386 first.o -o first
+  521  ls
+  522  ./first
+  523  nano first.asm
+  524  ld -m elf_i386 first.o -o first1
+  525  ./first1
+  526  ld -m elf_i686 first.o -o first2
+  527  ld -m elf_x86_64 first.o -o first3
+  528  nano first.asm
+  529  ls
+  530  clear
+  531  nano second.asm
+  532  nasm -f elf second.asm
+  533  ls
+  534  ld -m elf_i386 second.o -o second
+  535  ls
+  536  ./second
+  537  cd /.
+  538  lscpu
+  539  man lscpu
+  540  uname -a
+  541  man uname
+  542  getconf LONG_BIT
+  543  man file
+  544  man dpkg
+  545  dpkg --print-architectures
+  546  dpkg --print-architecture
+  547  man ld
+  548  nasm -f elf_64 second.asm
+  549  nasm -f elf64 second.asm
+  550  ls
+  551  cd ~/
+  552  ls
+  553  cd Assembly/
+  554  ls
+  555  nano first.asm
+  556  ls
+  557  man del
+  558  man rm
+  559  rm first* -i
+  560  ls
+  561  rm first* -i
+  562  ls
+  563  rm second*
+  564  ls
+  565  cp third.asm first.asm
+  566  ls
+  567  rm third*
+  568  ls
+  569  nano first.asm
+  570  nasm -f elf64 first.asm
+  571  ls
+  572  man ld
+  573  ld -o first first.o
+  574  ls
+  575  ./first
+  576  nano first.asm
+  577  nano second.asm
+  578  nano first.asm
+  579  nano second.asm
+  580  nasm -f elf64 second.o
+  581  nasm -f elf64 second.asm
+  582  ld -o second second.o
+  583  ./second
+  584  nano second.asm
+  585  nasm -f elf64 second.asm
+  586  ld -o second second.o
+  587  ./second
+  588  man ld
+  589  nasm -verbose
+  590  nasm -m --v
+  591  man nasm
+  592  ld -verbose
+  593  ld -v
+  594  man ld
+  595  man nasm
+  596  cd ../
+  597  pwd ; ls
+  598  exit
+  599  man awk
+  600  pwd
+  601  mkdir gawker
+  602  ls
+  603  cd gawker/
+  604  ls
+  605  nano variants.vcf
+  606  gawk '{print;}' variants.vfc
+  607  gawk '{print;}' variants.vcf
+  608  clear
+  609  nano variants.vcf
+  610  cd gawker/
+  611  gawk '{print $1,$2,$3;} variants.vcf
+  612  gawk '{print $1,$2,$3;}' variants.vcf
+  613  gawk 'BEGIN {count=0}
+  614  man sed
+  615  cd ../
+  616  ls
+  617  pwd
+  618  mkdir c_cpp
+  619  cd c_cpp/
+  620  ls
+  621  nano HelloWindows.cpp
+  622  man gawk
+  623  gawk
+  624  gawk /NS=[0-100]/ '{print}' variants.vcf
+  625  clear
+  626  man grep
+  627  get-apt update nano
+  628  man file
+  629  ls
+  630  file -bi *
+  631  file -i *
+  632  file *
+  633  cd ../ ; ls
+  634  cd learning_mumps/
+  635  ls
+  636  file *
+  637  ls
+  638  cd learning_mumps/
+  639  ls
+  640  mkdir hangman
+  641  cd hangman/
+  642  nano foods.txt
+  643  ls
+  644  nano fruits.txt
+  645  nano vegetables.txt
+  646  nano countries.txt
+  647  ls
+  648  clear
+  649  mumps
+  650  more fruits.txt 
+  651  man more
+  652  wc fruits.txt 
+  653  man wc
+  654  nano read.mps
+  655  chmod a+x read.mps 
+  656  file read.mps
+  657  ls -l read.mps 
+  658  ls read.mps
+  659  man ls
+  660  chmod a-x read.mps 
+  661  ls -l *.mps
+  662  chmod u+x *.mps
+  663  ls -l *.mps
+  664  read.mps
+  665  ./read.mps
+  666  ls
+  667  nano read.mps
+  668  ./read.mps
+  669  nano read.mps
+  670  ./read.mps
+  671  nano read.mps
+  672  ./read.mps
+  673  nano read.mps
+  674  ./read.mps
+  675  nano read.mps
+  676  ./read.mps
+  677  ./read.mps | strace
+  678  strace -f -o mpstest.txt ./read.mps
+  679  ls
+  680  more mpstest.txt 
+  681  ls -l fruits.txt 
+  682  nano read.mps 
+  683  ./read.mps
+  684  nano read.mps 
+  685  ./read.mps
+  686  nano test.mps
+  687  chmod u+x test.mps 
+  688  ./test.mps 
+  689  nano read.mps 
+  690  ./read.mps
+  691  ls -l fruits.txt 
+  692  nano read.mps 
+  693  nano read2.mps
+  694  chmod u+x read2.mps 
+  695  ls -l read2.mps 
+  696  ./read2.mps
+  697  ver
+  698  ubuntu
+  699  sysver
+  700  cat /etc/os-release
+  701  nano read.mps 
+  702  ./read.msp
+  703  ./read.mps
+  704  nano read.mps 
+  705  mumps
+  706  nano read.mps 
+  707  ./read.mps
+  708  nano read.mps 
+  709  ./read.mps
+  710  nano read.mps 
+  711  ./read.mps
+  712  nano read.mps 
+  713  ./read.mps
+  714  vi read.mps
+  715  vim read.mps 
+  716  vim read.mps
+  717  cd ~/
+  718  ls
+  719  cat .vimrc
+  720  pwd
+  721  vim .vimrc
+  722  nano .vimrc
+  723  vim .vimrc
+  724  cd learning_mumps/
+  725  cd hangman/
+  726  vim read.mps 
+  727  sudo apt-get update vim
+  728  sudo apt-get update
+  729  man vim
+  730  vim
+  731  sudo apt-get install vim
+  732  vim
+  733  vim read.mps
+  734  nano read.mps
+  735  vim reademps
+  736  vim read.mps
+  737  ls -l read.mps
+  738  ./read.mps
+  739  vim read.mps
+  740  ./read.mps
+  741  vim read.mps
+  742  ls
+  743  vim read.mps
+  744  vim cout.mps
+  745  chmod u+x cout.mps
+  746  ./cout.mps
+  747  vim cout.mps
+  748  ./cout.mps
+  749  ls -l cout.mps
+  750  vim cout.mps
+  751  ./cout.mps
+  752  vim cout.mps
+  753  vim read.mps
+  754  ./cout.mps
+  755  vim read.mps
+  756  ./read.mps
+  757  vim read.mps
+  758  ./read.mps
+  759  vim read.mps
+  760  ./read.mps
+  761  vim read.mps
+  762  ls
+  763  vim read.mps
+  764  ./read.mps
+  765  vim read.mps
+  766  ./read.mps
+  767  vim read.mps
+  768  ./read.mps
+  769  vim read.mps
+  770  ./read.mps
+  771  vim fruits.txt
+  772  vim read.mps
+  773  ./read.mps
+  774  vim fruits.txt
+  775  vim read.mps
+  776  mumps
+  777  vim read.mps
+  778  ./read.mps
+  779  vim read.mps
+  780  ./read.mps
+  781  cat fruits.txt
+  782  vim read.mps
+  783  ./read.mps
+  784  vim read.mps
+  785  ./read.mps
+  786  cat fruits.txt 
+  787  vim fruits.txt 
+  788  ls
+  789  wc fruits.txt
+  790  wc alpha_fruits.txt 
+  791  vim read.mps
+  792  ./read.mps
+  793  vim read.mps
+  794  ./read.mps
+  795  vim read.mps
+  796  ./read.mps
+  797  vim read.mps
+  798  ./read.mps
+  799  vim read.mps
+  800  ./read.mps
+  801  vim read.mps
+  802  ./read.mps
+  803  vim read.mps
+  804  ./read.mps
+  805  vim read.mps
+  806  ./read.mps
+  807  vim read.mps
+  808  ./read.mps
+  809  vim read.mps
+  810  ./read.mps
+  811  vim read.mps
+  812  ./read.mps
+  813  vim read.mps
+  814  exit
+  815  cd learning_mumps/hangman/
+  816  vim read.mps 
+  817  ./read.mps
+  818  vim read.mps 
+  819  ls
+  820  vim read.mps 
+  821  ./read.mps
+  822  vim read.mps 
+  823  ./read.mps
+  824  vim read.mps 
+  825  ./read.mps
+  826  vim read.mps 
+  827  ./read.mps
+  828  vim read.mps 
+  829  ./read.mps
+  830  vim read.mps 
+  831  ./read.mps
+  832  vim read.mps 
+  833  man wget
+  834  VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/'
+  835  VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/''
+  836  VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/'`
+  837  echo $VERSION
+  838  man cut
+  839  VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c2-`
+  840  ECHO $VERSION
+  841  echo $VERSION
+  842  VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c1-3`
+  843  echo $VERSION
+  844  VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/' | cut -f 1`
+  845  echo $VERSION
+  846  VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c 2-`
+  847  echo $VERSION
+  848  man sed
+  849  man curl
+  850  VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest"`
+  851  echo $VERSION
+  852  more `curl  "https://api.github.com/repos/cli/cli/releases/latest"`
+  853  `curl  "https://api.github.com/repos/cli/cli/releases/latest"` | more
+  854  curl  "https://api.github.com/repos/cli/cli/releases/latest" | more
+  855  man more
+  856  curl  "https://api.github.com/repos/cli/cli/releases/latest" | cat
+  857  curl  "https://api.github.com/repos/cli/cli/releases/latest" | less
+  858  man less
+  859  curl  "https://api.github.com/repos/cli/cli/releases/latest" | less
+  860  man sed
+  861  curl  "https://api.github.com/repos/cli/cli/releases/latest" | less
+  862  man less
+  863  curl  "https://api.github.com/repos/cli/cli/releases/latest" | less
+  864  vim temp.txt
+  865  vim temp.sh
+  866  chmod u+x temp.sh
+  867  ./temp.sh
+  868  vim temp.sh
+  869  ./temp.sh
+  870  vim temp.sh
+  871  ./temp.sh
+  872  vim temp.sh
+  873  ./temp.sh
+  874  vim temp.sh
+  875  man sed
+  876  VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/'`
+  877  echo $VERSION
+  878  vim temp.sh
+  879  ./temp.sh
+  880  vim temp.sh
+  881  ls
+  882  man ls
+  883  ls -a
+  884  man ls
+  885  ls -a
+  886  man rem
+  887  man rm
+  888  rm .temp.sh.swp
+  889  vim temp.sh
+  890  VERSION=`curl  "https://api.github.com/repos/cli/cli/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c2-`
+  891  wget https://github.com/cli/cli/releases/download/v${VERSION}/gh_${VERSION}_linux_amd64.tar.gz
+  892  ls
+  893  mv gh_1.7.0_linux_amd64.tar.gz ~/
+  894  ls
+  895  cd ~/
+  896  ls
+  897  tar xvf gh_1.7.0_linux_amd64.tar.gz
+  898  sudo cp gh_1.7.0_linux_amd64 /usr/local/bin
+  899  man cp
+  900  cd /usr/local/bin
+  901  ls -a -l
+  902  ls
+  903  sudo cp -r gh_1.7.0_linux_amd64 /usr/local/bin
+  904  cd ~/
+  905  ls
+  906  sudo cp -r gh_1.7.0_linux_amd64 /usr/local/bin
+  907  cd /usr/local/bin
+  908  ls
+  909  cd gh_1.7.0_linux_amd64/
+  910  ls
+  911  cd bin ; ls
+  912  cd gh ; ls
+  913  cd ~/
+  914  gh version
+  915  cd usr/local/bin
+  916  cd /usr/local/bin
+  917  ls
+  918  rm gh_1.7.0_linux_amd64/
+  919  rm -r gh_1.7.0_linux_amd64/
+  920  y
+  921  ls
+  922  man rm
+  923  sudo remove -rf gh_1.7.0_linux_amd64/
+  924  sudo rm -rf gh_1.7.0_linux_amd64/
+  925  ls
+  926  cd ~/
+  927  sudo cp gh_1.7.0_linux_amd64/bin/gh /usr/local/bin
+  928  cd /usr/local/bin
+  929  ls
+  930  cd ~/
+  931  gh version
+  932  sudo cp -r gh_1.7.0_linux_amd64/share/man/man1/* /usr/share/man/man1
+  933  man gh
+  934  ls
+  935  mkdir LocalGit
+  936  cd LocalGit/
+  937  mkdir CoPOS
+  938  cd ../
+  939  ls
+  940  cd LocalGit/
+  941  cd CoPOS/
+  942  git init
+  943  git remote add origin "https://github.com/mikedesch/CoPOS"
+  944  git clone "https://github.com/mikedesch/CoPOS"
+  945  ls
+  946  cd CoPOS/ ; ls
+  947  cd ../
+  948  ls
+  949  sudo mv -r /CoPOS ~/LocalGit/
+  950  sudo mv -f /CoPOS ~/LocalGit/
+  951  sudo mv ./CoPOS ~/LocalGit/
+  952  sudo mv -f ./CoPOS ~/LocalGit/
+  953  man mv
+  954  sudo cp -rf ./CoPOS ~/LocalGit/
+  955  cd ../
+  956  ls
+  957  cd CoPOS/ ; ls
+  958  sudo cp -rf ~/LocalGit/CoPOS/CoPOS ~/LocalGit/
+  959  cd ~/
+  960  cd LocalGit/ ;ls
+  961  cd CoPOS/ ; ls
+  962  cd CoPOS/
+  963  ls
+  964  cd ~/
+  965  cd LocalGit/
+  966  ls
+  967  rm -f CoPOS
+  968  rm -rf CoPOS
+  969  sudo rm -rf CoPOS
+  970  ls
+  971  git remote add origin "https://github.com/mikedesch/CoPOS"
+  972  git init
+  973  git remote add origin "https://github.com/mikedesch/CoPOS"
+  974  git clone "https://github.com/mikedesch/CoPOS"
+  975  ls
+  976  cd CoPOS/
+  977  ls
+  978  cp -rf ~/learning_mumps/hangman/* ./
+  979  ls
+  980  git add *
+  981  git commit -m "adding local files from ~/learning_mumps/hangman"
+  982  git config --global user.email "mike.desch@gmail.com"
+  983  git config --global user.name "Mike Desch"
+  984  git commit -m "adding local files from ~/learning_mumps/hangman"
+  985  git push origin "CoPOS"
+  986  git push origin "mikedesch/CoPOS"
+  987  git push origin master
+  988  git push origin main
+  989  cd ../
+  990  history > history.txt
