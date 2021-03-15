@@ -1,4 +1,4 @@
-#M
+# M
 
 ### Learning the M(UMPS) programming language
 
