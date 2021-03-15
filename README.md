@@ -23,9 +23,8 @@ git CLI: add, commit, push commands
 ; add all new files / deltas
 git add * 
 
-; if omit -m ,nano opens for a more expasnive text editor experience
-
+; if omit -m ,nano opens for a more expasnive text editor experience /n
 git commit -m "commit message goes here"
 
-; main is the name of the branch that the committed files / deltas are being pushed to
+; main is the name of the branch that the committed files / deltas are being pushed to \n
 git push origin main
