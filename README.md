@@ -24,6 +24,7 @@ git CLI: add, commit, push commands
 git add * 
 
 ; if omit -m ,nano opens for a more expasnive text editor experience
+
 git commit -m "commit message goes here"
 
 ; main is the name of the branch that the committed files / deltas are being pushed to
