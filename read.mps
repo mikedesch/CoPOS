@@ -12,12 +12,12 @@
 ;;
 ;; Description:
 ;;
-;;	A simple hangman game. A word is randomly selected from
-;;	one of three categories of words, i.e. any of: "fruits",
-;;	"vegetables", or "countries". The category of word is
-;;	displayed to the user, and they are allowed to guess a
-;;	total of "five" incorrect letters, at which point the
-;;	game is lost.
+;;	A simple hangman game, written in Open M(UMPS). A word
+;;	is randomly selected from one of three categories of
+;;	words, i.e. any of: "fruits", "vegetables", or "countries".
+;;	The category of word is displayed to the user, and they
+;;	are allowed to guess a total of "five" incorrect letters,
+;;	at which point the game is lost.
 ;; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
