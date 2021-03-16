@@ -12,12 +12,12 @@
 ;;
 ;; Description:
 ;;
-;;	A simple hangman game, written in Open M(UMPS). A word is
-;; randomly selected from one of three categories of words,
-;; i.e. any of: "fruits", "vegetables", or "countries". The
-;; category of word is displayed to the user, and they are
-;; allowed to guess a total of "five" incorrect letters, at
-;; which point the game is lost.
+;;	A simple hangman game. A word is randomly selected from
+;;	one of three categories of words, i.e. any of: "fruits",
+;;	"vegetables", or "countries". The category of word is
+;;	displayed to the user, and they are allowed to guess a
+;;	total of "five" incorrect letters, at which point the
+;;	game is lost.
 ;; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -43,13 +43,13 @@
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
- write "begin: testing",!!
+; write "begin: testing",!!
 
- write $order(^root())
+; write $order(^root())
 
 
 
- write "end: testing",!!
+; write "end: testing",!!
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -69,7 +69,6 @@
  if '$test write "oops -- no such file",! halt
 
  set f=0,i=0
-
  for  do  if f=1 quit
  . use 1
  . read line
@@ -79,6 +78,7 @@
  . write ^root("fruits",i),!
  . set i=i+1
 
+ set fruitCount=i
  close 1
  
  use 5
@@ -111,6 +111,7 @@
  . write ^root("vegetables",i),!
  . set i=i+1
 
+ set vegetableCount=i
  close 1
 
  use 5
@@ -143,6 +144,7 @@
  . write ^root("countries",i),!
  . set i=i+1
 
+ set countryCount=i
  close 1
 
  use 5
@@ -160,9 +162,27 @@
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
- set categorySelection $Random(3)
- set wordSelection $Random
+ set categoryIndex=$Random(3)
 
+ if categoryIndex=0 do
+ . set categoryIndex="fruits"
+ . set wordIndex=$Random(fruitCount)
+
+ if categoryIndex=1 do
+ . set categoryIndex="vegetables"
+ . set wordIndex=$Random(vegetableCount)
+
+ if categoryIndex=2 do
+ . set categoryIndex="countries"
+ . set wordIndex=$Random(countryCount)
+
+ write ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",!,";; Begin: Test Section",!,";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",!!
+ write "category index = ",categoryIndex,!
+ write "word index = ",wordIndex,!
+ write "selectet word is: ",^root(categoryIndex,wordIndex),!
+ 
+ write !,";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",!,";; End: Test Section",!,";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",!
+ 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;; End: Select random word from ^root 
