@@ -1,0 +1,32 @@
+Issued To	Issued By	Expiration Date	Intended Purposes	Friendly Name	Status	Certificate Template
+AAA Certificate Services	AAA Certificate Services	12/31/2028	Client Authentication, Code Signing, Encrypting File System, Secure Email, IP security tunnel termination, IP security user, Server Authentication, Time Stamping	Sectigo (AAA)	    	
+Baltimore CyberTrust Root	Baltimore CyberTrust Root	5/12/2025	Client Authentication, Code Signing, Secure Email, OCSP Signing, Server Authentication, Time Stamping	DigiCert Baltimore Root	    	
+Class 3 Public Primary Certification Authority	Class 3 Public Primary Certification Authority	8/1/2028	Client Authentication, Code Signing, Secure Email, Server Authentication	VeriSign Class 3 Public Primary CA	    	
+Copyright (c) 1997 Microsoft Corp.	Copyright (c) 1997 Microsoft Corp.	12/30/1999	Time Stamping	Microsoft Timestamp Root	    	
+DigiCert Assured ID Root CA	DigiCert Assured ID Root CA	11/9/2031	Client Authentication, Code Signing, Secure Email, Server Authentication, Time Stamping	DigiCert	    	
+DigiCert Global Root CA	DigiCert Global Root CA	11/9/2031	Client Authentication, Code Signing, Secure Email, Server Authentication, Time Stamping	DigiCert	    	
+DigiCert Global Root G2	DigiCert Global Root G2	1/15/2038	Client Authentication, Code Signing, Secure Email, Server Authentication, Time Stamping	DigiCert Global Root G2	    	
+DigiCert High Assurance EV Root CA	DigiCert High Assurance EV Root CA	11/9/2031	Client Authentication, Code Signing, Secure Email, Server Authentication, Time Stamping	DigiCert	    	
+DST Root CA X3	DST Root CA X3	9/30/2021	Client Authentication, Document Signing, Encrypting File System, Secure Email, Server Authentication, Time Stamping	DST Root CA X3	    	
+GlobalSign	GlobalSign	3/18/2029	Client Authentication, Code Signing, Encrypting File System, Secure Email, IP security tunnel termination, IP security user, Server Authentication, Time Stamping	GlobalSign Root CA - R3	    	
+GlobalSign	GlobalSign	12/15/2021	Client Authentication, Code Signing, Encrypting File System, Secure Email, IP security IKE intermediate, IP security tunnel termination, IP security user, OCSP Signing, Server Authentication, Time Stamping	Google Trust Services - GlobalSign Root CA-R2	    	
+GlobalSign Root CA	GlobalSign Root CA	1/28/2028	Client Authentication, Code Signing, Encrypting File System, Secure Email, IP security IKE intermediate, IP security tunnel termination, IP security user, OCSP Signing, Server Authentication, Time Stamping	GlobalSign Root CA - R1	    	
+Go Daddy Class 2 Certification Authority	Go Daddy Class 2 Certification Authority	6/29/2034	Client Authentication, Code Signing, Secure Email, Server Authentication	Go Daddy Class 2 Certification Authority	    	
+Go Daddy Root Certificate Authority - G2	Go Daddy Root Certificate Authority - G2	12/31/2037	Client Authentication, Code Signing, Encrypting File System, Secure Email, IP security tunnel termination, IP security user, Server Authentication, Time Stamping	Go Daddy Root Certificate Authority – G2	    	
+Hotspot 2.0 Trust Root CA - 03	Hotspot 2.0 Trust Root CA - 03	12/8/2043	Client Authentication, Secure Email, Server Authentication	Hotspot 2.0 Trust Root CA - 03	    	
+Microsoft Authenticode(tm) Root Authority	Microsoft Authenticode(tm) Root Authority	12/31/1999	Secure Email, Code Signing	Microsoft Authenticode(tm) Root	    	
+Microsoft ECC Product Root Certificate Authority 2018	Microsoft ECC Product Root Certificate Authority 2018	2/27/2043	<All>	Microsoft ECC Product Root Certificate Authority 2018	    	
+Microsoft ECC TS Root Certificate Authority 2018	Microsoft ECC TS Root Certificate Authority 2018	2/27/2043	<All>	Microsoft ECC TS Root Certificate Authority 2018	    	
+Microsoft Root Authority	Microsoft Root Authority	12/31/2020	<All>	Microsoft Root Authority	    	
+Microsoft Root Certificate Authority	Microsoft Root Certificate Authority	5/9/2021	<All>	Microsoft Root Certificate Authority	    	
+Microsoft Root Certificate Authority 2010	Microsoft Root Certificate Authority 2010	6/23/2035	<All>	Microsoft Root Certificate Authority 2010	    	
+Microsoft Root Certificate Authority 2011	Microsoft Root Certificate Authority 2011	3/22/2036	<All>	Microsoft Root Certificate Authority 2011	    	
+Microsoft Time Stamp Root Certificate Authority 2014	Microsoft Time Stamp Root Certificate Authority 2014	10/22/2039	<All>	Microsoft Time Stamp Root Certificate Authority 2014	    	
+NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.	NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.	1/7/2004	Time Stamping	VeriSign Time Stamping CA	    	
+QuoVadis Root CA 2	QuoVadis Root CA 2	11/24/2031	Client Authentication, Code Signing, Secure Email, OCSP Signing, Server Authentication, Time Stamping	QuoVadis Root CA 2	    	
+Starfield Class 2 Certification Authority	Starfield Class 2 Certification Authority	6/29/2034	Client Authentication, Code Signing, Secure Email, Server Authentication	Starfield Class 2 Certification Authority	    	
+Symantec Enterprise Mobile Root for Microsoft	Symantec Enterprise Mobile Root for Microsoft	3/14/2032	Code Signing	<None>	    	
+thawte Primary Root CA - G3	thawte Primary Root CA - G3	12/1/2037	Client Authentication, Code Signing, Secure Email, Server Authentication, Time Stamping	thawte Primary Root CA - G3	    	
+Thawte Timestamping CA	Thawte Timestamping CA	12/31/2020	Time Stamping	Thawte Timestamping CA	    	
+VeriSign Class 3 Public Primary Certification Authority - G5	VeriSign Class 3 Public Primary Certification Authority - G5	7/16/2036	Client Authentication, Code Signing, Secure Email, Server Authentication	VeriSign	    	
+VeriSign Universal Root Certification Authority	VeriSign Universal Root Certification Authority	12/1/2037	Client Authentication, Code Signing, Secure Email, Server Authentication, Time Stamping	VeriSign Universal Root Certification Authority	    	
